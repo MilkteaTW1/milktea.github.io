@@ -176,7 +176,7 @@ body{
     font-size: 60px;
     color: white;
     text-shadow: 4px 4px 4px #9C9C9C;
-    padding-left: 20px;
+    padding-left: 60px;
 }
 .program-choice{
     padding-left: 50px;
@@ -207,10 +207,6 @@ body{
 #ed-bt{
     background-color: #212121;
     border: none;
-}
-.protitle{
-    display: flex;
-    align-items: center;
 }
 #Python_button{
     cursor: pointer;
