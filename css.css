@@ -23,7 +23,7 @@ body{
     padding-right: 60px;
     text-align: center;
     justify-content: center;
-    filter: drop-shadow(5px 5px 4px aqua);
+    filter: drop-shadow(3px 3px 4px aqua);
     width: 180px;
 }
 .gowhere{
@@ -44,10 +44,10 @@ body{
 }
 @keyframes hover{
     0%{
-        filter: drop-shadow(5px 5px 4px aqua);
+        filter: drop-shadow(3px 3px 4px aqua);
     }
     100%{
-        filter: drop-shadow(5px 5px 4px aqua);
+        filter: drop-shadow(3px 3px 4px aqua);
     }
 }
 .gowhere:hover{
@@ -223,5 +223,11 @@ body{
     align-items: center;
     color: white;
     font-size: 60px;
-
+}
+.community-title{
+    color: white;
+    font-size: 60px;
+    padding-left: 60px;
+    font-family: 微軟雅黑體;
+    text-shadow: 4px 4px 4px #9C9C9C;
 }
