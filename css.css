@@ -52,6 +52,8 @@ body{
 }
 .gowhere:hover{
     animation: hover 5s ease-in-out normal;
+    transform: translateX(3%);
+    transform: translateY(3%);
 }
 .gowhere:active{
     transform: translateX(5%);
@@ -112,9 +114,16 @@ body{
     padding-right: 60px;
     justify-content: center;
     width: 600x;
+    border: 1px aqua solid;
 }
 #e-mail:hover {
     animation: hover 5s ease-in-out normal;
+    transform: translateX(3%);
+    transform: translateY(3%);
+}
+#e-mail:active{
+    transform: translateX(5%);
+    transform: translateY(5%);
 }
 .announcement-title{
     color: white;
@@ -230,4 +239,10 @@ body{
     padding-left: 60px;
     font-family: 微軟雅黑體;
     text-shadow: 4px 4px 4px #9C9C9C;
+}
+.python_context{
+    font-size: 24px;
+    color: white;
+    padding-left: 60px;
+    text-shadow: 4px 4px 4px #9C9C9C
 }
