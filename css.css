@@ -27,7 +27,6 @@ body{
     width: 180px;
 }
 .gowhere{
-    justify-content: end;
     font-family: Arial;
     padding: 20px;
     border: none;
@@ -41,6 +40,7 @@ body{
     padding-right: 60px;
     justify-content: center;
     width: 180px;
+
 }
 @keyframes hover{
     0%{
@@ -145,4 +145,87 @@ body{
     font-family: 微軟雅黑體;
     text-shadow: 4px 4px 4px #9C9C9C;
     padding-top: 20px;
+}
+.education-title {
+    color: white;
+    font-size: 60px;
+    padding-left: 60px;
+    font-family: 微軟雅黑體;
+    text-shadow: 4px 4px 4px #9C9C9C;
+}
+.education-context{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.education-context-title{
+    font-size: 24px;
+    color: white;
+    text-shadow:4px 4px 4px #9C9C9C;
+    padding-left: 215px;
+    animation: glue 2s infinite;
+}
+@keyframes glue{
+    from{
+        filter: drop-shadow(1px 2px 3px aqua);
+    }
+    to {
+        filter: drop-shadow(2 px 4px 5px aqua);
+    }
+}
+.program-title{
+    font-size: 60px;
+    color: white;
+    text-shadow: 4px 4px 4px #9C9C9C;
+    padding-left: 20px;
+}
+.program-choice{
+    padding-left: 50px;
+    padding-top: 60px;
+    background-color: #212121;
+}
+#Python_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#probt{
+    background-color: #212121;
+    border: none;
+    cursor: pointer;
+}
+#probt:hover{
+    filter: drop-shadow(5px 5px 5px #000);
+    transform: translateY(-1%);
+    transform: translateX(-1%);
+}
+#probt:active{
+    filter: drop-shadow(5px 5px 5px #000);
+    transform: translateY(-2%);
+    transform: translateX(-2%);
+}
+#ed-bt{
+    background-color: #212121;
+    border: none;
+}
+.protitle{
+    display: flex;
+    align-items: center;
+}
+#Python_button{
+    cursor: pointer;
+}
+#Python_button:hover{
+    transform: translateX(2%);
+    transform: translateY(2%);
+    filter: drop-shadow(4px 4px 4px aqua);
+}
+.python_title{
+    padding-left: 60px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+
 }
